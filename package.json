@@ -1,0 +1,33 @@
+{
+  "name": "multinomial",
+  "version": "0.0.0",
+  "description": "Multinomial coefficients",
+  "main": "multi.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "gcd": "~0.0.0",
+    "generic-slice": "~0.0.0"
+  },
+  "devDependencies": {
+    "tap": "~0.4.2"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/multinomial.git"
+  },
+  "keywords": [
+    "multinomial",
+    "coefficient",
+    "polynomial",
+    "multivariable"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "4356944f6d5b0665325ef226583ad50aba5a0889"
+}
