@@ -1,12 +1,13 @@
 {
   "name": "multinomial",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Multinomial coefficients",
   "main": "multi.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
+    "array.from": "^0.2.0",
     "gcd": "~0.0.0",
     "generic-slice": "~0.0.0"
   },
@@ -22,6 +23,7 @@
   },
   "keywords": [
     "multinomial",
+    "binomial",
     "coefficient",
     "polynomial",
     "multivariable"
