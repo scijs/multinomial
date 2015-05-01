@@ -34,8 +34,8 @@ Computes the multinomial coefficient, or in other words:
 
 Returns an object containing:
 
-*`counts` An array containing "histograms" of the `d` numbers (each histogram sums to n).
-*`coefs` An array with the multinomial coefficients corresponding to the histograms in `counts'.
+* `counts` An array containing "histograms" of the `d` numbers (each histogram sums to n).
+* `coefs` An array with the multinomial coefficients corresponding to the histograms in `counts'.
 
 Note that the order in which the coefficients are returned is fixed, but that it is not recommended to rely on this (other orders might have benefits over this one, so it might change in the future).
 
